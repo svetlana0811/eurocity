@@ -1,0 +1,391 @@
+@media screen and (max-width: 1600px){
+	main .contactus .infoAndForm form button {
+        width: 80%;
+    }
+    main .investory .animash {
+        width: 50%;
+    }
+    main .investory .info {
+        
+        width: 40%;
+         
+    }
+    main .features .item {
+        width: 31%;
+    }
+    .backImage {
+        
+        top: -60px; 
+    }
+    .contacvtBackImAGE {
+      min-width: 320px;
+        width: 50%;
+    }
+    main .features .item .image {
+    
+    margin: 20px auto;
+     
+    font-size: 50px; 
+}
+main .demo .readMore {
+   
+    width: 50%;
+}
+}
+@media screen and (max-width: 1400px){
+	.sectionTitle ,main .investory .info .title {
+        font-size: 38px;
+    }
+    main .about {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    main .features .item .image {
+        width: 140px;
+        height: 140px;
+    }
+    main .features .item .title {
+        margin-bottom: 15px; 
+        font-size: 17px;
+    }
+    .sectionTitle.rotated {
+        font-size: 110px;
+            padding-left: 0;
+    }
+    main .contactus .infoAndForm form input, main .contactus .infoAndForm form textarea {
+        padding: 10px 20px;
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+    main .investory .info .desc {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    main .contactus {
+        margin-top: 30px;
+    }
+    .label span {
+        font-size: 15px;
+    }
+    header .logo img {
+        width: 150px;
+    }
+}
+@media screen and (max-width: 1150px){
+    main .features.pricing .item {
+    box-shadow: 0 2px 5px rgb(44 64 87 / 38%);
+    padding: 20px;
+}
+    main .partners .contactus {
+    
+    margin-top: 0;
+    padding: 5px 60px;
+    
+}
+main .demo {
+    position: relative;
+    padding: 0 60px;
+}
+main .features .item .desc {
+    font-size: 13px;
+    line-height: 17px;
+    margin-bottom: 20px;
+}
+main .features.pricing .item .readMore {
+  
+    width: 90px;
+    height: 35px;
+    
+}
+main .features .item .image {
+   
+    font-size: 40px;
+}
+main .partners .contactus .infoAndForm >p {
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #00205b;
+    padding-left: 20px;
+}
+	 header .langAndNav nav ul li {
+        font-size: 18px;
+        margin-left: 20px;
+    }
+    .sectionTitle, main .investory .info .title {
+        font-size: 28px;
+            line-height: 32px;
+    }
+    main .about {
+        font-size: 15px;
+        line-height: 30px;
+    }
+    .backImage {
+    top: 0;
+}
+main .investory .info .desc {
+    font-size: 14px;
+    line-height: 20px;
+}
+main .features , main .about , main .investory{
+        padding: 0 60px;
+}
+main .contactus {
+    padding:30px 60px;
+ 
+}
+main .contactus .infoAndForm {
+    width: 80%;
+    display: flex;
+}
+.sectionTitle.rotated {
+    font-size: 100px;
+    padding-left: 0;
+    left: -60px;
+}
+main .features .item .image {
+    width: 120px;
+    height: 120px;
+    margin: 20px auto;
+}
+main .contactus .infoAndForm .info a span {
+    font-size: 14px; 
+}
+main .contactus .infoAndForm .info {
+      
+    margin-left: 0; 
+}
+main .features .item .title {
+    margin-bottom: 5px;
+    font-size: 12px;
+}
+
+main .features .item {
+    width: 32%;
+    padding: 0;
+}
+main .about {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+@media screen and (max-width: 800px){
+    main .partners .contactus .infoAndForm >p, main .partners .contactus .infoAndForm form {
+    max-width: 400px;
+    width: 100%;
+}
+    main .investory .animash {
+        width: 100%;
+    }
+    main .demo form {
+    width: 100%;
+    max-width: 400px;
+}
+main .features .item {
+    width: 100%;
+    max-width: 320px;
+ 
+    margin-bottom: 15px;
+}
+main .demo form input, main .demo form textarea {
+    background: white;
+    padding: 10px;
+    font-size: 17px;
+    border-radius: 5px;
+    border: 1px solid #00379E;
+    margin-bottom: 10px;
+    width: 100%;
+    font-family: seguisb;
+}
+main .demo {
+    position: relative;
+    padding: 0 15px;
+}
+main .demo >p.subtitle {
+    color: #5B5B5B;
+    padding-left: 30px;
+}
+    main .investory .info {
+        width: 100%;
+        align-items: flex-end;
+    }
+    main .investory .info .title {
+        width: 100%;
+        text-align: right;
+    }
+    main .features, main .about, main .investory {
+        padding: 0 40px;
+        margin-top: 30px;
+    }
+    main .about {
+        width: 100%;
+        margin: 20px auto;
+    }
+    .sectionTitle.rotated {
+        font-size: 60px;
+    }
+    main .contactus .infoAndForm {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    main .contactus .infoAndForm .info{
+        width: 100%;
+            margin-bottom: 30px;
+    }
+    main .contactus .infoAndForm .info a {
+   
+    margin: 10px 0 0;
+}
+main .contactus .infoAndForm form {
+    
+    margin-left: 0px;
+    align-items: center;
+    width: 100%;
+}
+.sectionTitle {
+    
+    padding-left: 40px;
+}
+main .features .item .image {
+    width: 100px;
+    height: 100px;
+    margin: 10px auto;
+}
+.rotated {
+    transform: none;
+    height: max-content;
+    width: 100%;
+    position: relative;
+    top: auto;
+    left: 0;
+    font-size: 156px;
+    padding-left: 80px !important;
+    color: white;
+    text-align: left !important;
+}
+footer div a img{
+    width: 25px
+}
+header .langAndNav nav ul li {
+    font-size: 16px;
+    margin-left: 15px;
+}
+footer {
+     
+    padding: 13px 0; 
+    font-size: 12px;
+}
+footer form,.subscribePart .label {
+     
+    width: 80%;
+    max-width: 400px;
+ 
+}
+footer form button img{
+    width: 25px
+}
+footer input.email {
+     
+    height: 41px;
+    width: 90%; 
+    font-size: 14px;
+}
+.subscribePart > p {
+     
+    width: 97%;
+}
+ .whyBecame {
+    font-size: 18px;
+    color: #00205B;
+    text-align: left;
+    padding-left: 20px;
+    margin-bottom: 15px;
+}
+}
+@media screen and (max-width: 500px){
+ header .logo img {
+    width: 90px;
+}
+header .langAndNav nav ul li {
+    font-size: 12px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+header .langAndNav .lang a {
+    font-size: 12px;
+}
+.backImage {
+   top: 0px;
+    width: 47%;
+    min-width: 320px;
+    right: -30px;
+}
+.content {
+    width: 98%;
+     
+    margin: 10px auto;   
+}
+.sectionTitle, main .investory .info .title {
+    font-size: 23px;
+    line-height: 29px;
+}
+main .investory .info .title {
+    width: 80%
+}
+header .langAndNav .lang {
+    padding: 0 8px;
+}
+
+main .investory .info .desc {
+    font-size: 12px;
+    line-height: 20px;
+    margin: 10px 0;
+}
+
+main .features, main .about, main .investory {
+    padding: 0 15px;
+    margin-top: 30px;
+}
+main .features .item {
+    width: 75%;
+    padding: 0;
+}
+main .contactus {
+    padding: 20px 15px;
+}
+.sectionTitle.rotated {
+    font-size: 75px;
+    left: 0;
+    padding-left: 0 !important;
+}
+footer .socials {
+    margin: 0 40px;
+    width: calc(100% );
+    padding-top: 10px;
+    margin-top: 10px;
+    border-top: 2px solid #003089;
+    margin-bottom: 15px;
+}
+main .partners .contactus {
+    
+    padding: 5px 15px; 
+}
+.readMore {
+     
+    height: 46px;
+}
+}

@@ -1,0 +1,95 @@
+
+ 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+a {
+text-decoration: none;
+color: inherit;
+}  
+::-webkit-scrollbar {
+  width: 2px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #3aa68a; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+@font-face {
+font-family: montseratReg;
+
+src:url(../fonts/Montserratarm-Regular.otf);
+}  
+@font-face {
+font-family: montseratMedium;
+
+src:url(../fonts/Montserratarm-Medium.otf);
+}  
+@font-face {
+font-family: montseratSemiBold;
+
+src:url(../fonts/Montserratarm-SemiBold.otf);
+}  
+@font-face {
+font-family: montseratLight;
+
+src:url(../fonts/Montserratarm-Light.otf);
+}  
+ 
+
+h1, h2 {
+font-weight: normal;
+}
+body{
+ 
+ 
+  overflow-x: hidden;
+  font-family: montseratReg , arial;
+}
+ 
+ul {
+list-style-type: none;
+padding: 0;
+}
+input , button , textarea {
+  outline: none !important;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 3px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+.myContainer {
+  width: 1500px;
+  margin: 0 auto;
+} 
+
+
+ 
