@@ -29,24 +29,29 @@ color: inherit;
   background: #555; 
 }
 @font-face {
-font-family: montseratReg;
+font-family: Circe-Bold;
 
-src:url(../fonts/Montserratarm-Regular.otf);
+src:url(../fonts/Circe-Bold.ttf);
 }  
 @font-face {
-font-family: montseratMedium;
+font-family: Circe-Regular;
 
-src:url(../fonts/Montserratarm-Medium.otf);
+src:url(../fonts/Circe-Regular.ttf);
 }  
 @font-face {
-font-family: montseratSemiBold;
+font-family: Circe-Light;
 
-src:url(../fonts/Montserratarm-SemiBold.otf);
+src:url(../fonts/Circe-Light.ttf);
 }  
 @font-face {
-font-family: montseratLight;
+font-family: Circe-ExtraLight;
 
-src:url(../fonts/Montserratarm-Light.otf);
+src:url(../fonts/Circe-ExtraLight.ttf);
+}  
+@font-face {
+font-family: Circe-ExtraBold;
+
+src:url(../fonts/Circe-ExtraBold.ttf);
 }  
  
 
@@ -57,7 +62,7 @@ body{
  
  
   overflow-x: hidden;
-  font-family: montseratReg , arial;
+  font-family: Circe-Regular , arial;
 }
  
 ul {
@@ -87,9 +92,258 @@ input , button , textarea {
   background: #555; 
 }
 .myContainer {
-  width: 1500px;
+  width: 1400px;
   margin: 0 auto;
 } 
+.flex-align-center {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header {
 
+ }
+ .greenPart .logo{
+  
+ }
+  .greenPart .logo img{
+  width: 185px;
+ }
+ .greenPart{
+      background: #1e5500;
+    box-shadow: 6px 0 6px #00264d;
+    color: white;
+ }
+ nav{
+  
+ }
+ nav ul{
+      display: flex;
+ }
+ nav ul li{
+      margin: 0 17px;
+    font-size: 15px;
+ }
+ .phonenumbers {
+  display: flex;
+ }
 
+ .phonenumbers a{
+  display: flex;
+    align-items: center;
+    font-size: 16px;
+    margin: 0 12px;
+ }
+
+ .phonenumbers a img{
+      width: 16px;
+    margin-right: 10px;
+ }
+.infoHeader .myContainer{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.infoHeader .orderCall{
+  
+}
+.infoHeader .orderCall .title{
+  font-size: 50px;
+}
+.infoHeader .orderCall .description{
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+    margin: 10px 0 20px;
+}
+.infoHeader .orderCall .description span{
+  
+}
+.infoHeader .orderCall {
+  height: 595px;
+    background: #2a3340;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 35px;
+    width: 33%;
+    text-align: center;
+}
+.infoHeader .servicesTipes{
+  font-size: 12px
+}
+.infoHeader .servicesTipes span:nth-child(2){
+      margin: 0 24px;
+      position: relative;
+}
+.infoHeader .servicesTipes span:nth-child(2):before{
+    content: '';
+    position: absolute;
+    width: 1px;
+    height: 40%;
+    top: 30%;
+    background: white;
+    left: -12px;
+}
+.infoHeader .servicesTipes span:nth-child(2):after{
+      content: '';
+    position: absolute;
+    width: 1px;
+    height: 40%;
+    top: 30%;
+    background: white;
+    right: -12px;
+}
+.infoHeader form{
+      margin-top: 50px;
+      width: 100%;
+}
+.infoHeader form .items{
+      display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.infoHeader form .items .item{
+      width: 48%;
+    border: 2px solid #c4cdd7;
+    margin-bottom: 10px;
+    position: relative;
+    padding-top: 6px;
+}
+.infoHeader form .items .item input::placeholder {
+  color: #b9c4cf;
+  font-family: Circe-Light;
+}
+.infoHeader form .items .item input{
+      font-size: 12px;
+    width: 100%;
+    background: transparent;
+    border: none;
+    padding: 8px 20px;
+      color: #b9c4cf;
+  font-family: Circe-Light;
+}
+.infoHeader form .items .item span{
+  position: absolute;
+    left: 10px;
+    top: -10px;
+    color: #b9c4cf;
+  font-family: Circe-ExtraLight;
+    font-size: 12px;
+    background: #2a3340;
+    padding: 0 5px;
+
+}
+.infoHeader form button{
+  font-family:Circe-Bold;
+      width: 100%;
+    height: 40px;
+    color: #2a3340;
+    background: white;
+    border: none;
+    font-size: 10px;
+}
+.infoHeader form{
+  
+}
+.infoHeader .services{
+  background: url(../img/2-30.png);
+    width: 67%;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+     position: relative;
+}
+.infoHeader .services .types{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background: hsl(0deg 0% 10% / 80%);
+    border-radius: 10px;
+    padding: 40px 50px 10px;
+        margin: 0 130px 70px 40px;
+
+}
+.infoHeader .services .types .item{
+        width: 30%;
+    margin-bottom: 40px;
+    position: relative;
+    border-radius: 5px;
+    padding: 40px 15px 20px;
+    color: white;
+    background-size: 100% 100%;
+    height: 105px;
+    display: flex;
+    align-items: center;
+    font-size: 20px
+}
+.infoHeader .services .types .item p{
+  
+}
+.infoHeader .services .types .item img{
  
+}
+.infoHeader .services .startChatWithsoc{
+         position: absolute;
+    width: 280px;
+    display: flex;
+    transform: rotate( 
+-90deg
+ );
+    right: -100px;
+    align-items: center;
+    bottom: 210px;
+    color: white;
+    font-size: 20px;
+    justify-content: space-between;
+}
+.infoHeader .services .startChatWithsoc a{
+      transform: rotate(
+90deg
+);
+}
+.infoHeader .services{
+  
+}
+footer {
+      margin-top: 60px;
+}
+footer .phonenumbers a {
+      margin: 5px 0;
+}
+footer .phonenumbers{
+    flex-direction: column;
+}
+footer .greenPart{
+    padding: 30px 0 10px;
+        position: relative;
+        box-shadow: none;
+}
+footer nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+footer .hostels{
+    position: absolute;
+    bottom: 10px;
+}
+footer .darkGreen {
+    background: #184500;
+    color: #2a7700;
+    font-size: 11px;
+}
+footer .darkGreen .myContainer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  padding: 10px 0 6px;
+}
