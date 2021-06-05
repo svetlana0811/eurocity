@@ -59,8 +59,8 @@ h1, h2 {
 font-weight: normal;
 }
 body{
- 
- 
+ background: #f1f5f9;
+ color: #2a3340;
   overflow-x: hidden;
   font-family: Circe-Regular , arial;
 }
@@ -347,3 +347,137 @@ footer .darkGreen .myContainer{
   
   padding: 10px 0 6px;
 }
+.errorPage {
+  height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.errorPage .myContainer img {
+
+}
+.errorPage .myContainer  a{
+       border-radius: 5px;
+    background-color: rgb(30, 85, 0);
+    padding: 6px 70px;
+    color: white;
+    margin-top: 20px;
+    font-size: 19px;
+    font-family: 'Circe-Bold';
+
+}
+.errorPage .myContainer .desc {
+font-family: Circe-Light;
+font-size: 25px;
+color: #2a3340;
+}
+.errorPage .myContainer .notfound {
+font-size: 25px;
+color: #2a3340;
+font-family: Circe-Bold;
+}
+.errorPage .myContainer .error {
+font-family: Circe-Bold;
+font-size: 50px;
+color: #2a3340;
+}
+.errorPage .myContainer{
+  height: 100%;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+}
+
+
+ .contactUs { 
+    margin-top: 50px;
+    padding-top: 15px;
+ }
+ .contactUs .border> .title{
+      text-align: center;
+    font-size: 23px;
+    font-family: 'Circe-Bold';
+    color: #2a3340;
+    margin-bottom: 40px;
+ }
+ .contactUs .phonenumbers {
+  justify-content: center;
+ }
+ .contactUs .phonenumbers a{
+  color: #2a3340;
+    font-size: 16px;
+    font-family: 'Circe-Bold'
+ }
+ .contactUs .phonenumbers a img{
+  
+ }
+ .contactUs .border {
+      border: 2px solid rgb(255, 255, 255);
+    padding: 10px 150px 30px;
+ }
+ .contactUs .sociallinks{
+  margin: 55px 0 0;
+
+ }
+ .contactUs .sociallinks .item{
+   background-color: rgb(223, 232, 241);
+     padding: 7px 20px 7px 30px
+ }
+ .contactUs .sociallinks  {
+  position: relative;
+ }
+ .contactUs .sociallinks a {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+ }
+
+
+ .contactUs .sociallinks .item .icon img{
+      width: 50px;
+      margin-right: 20px;
+ }
+ .contactUs .sociallinks .item .join{
+  
+ }
+ .contactUs .sociallinks .item .join .title{
+      color: #2a3340;
+    font-size: 17px;
+ }
+ .contactUs .sociallinks .item .join .desc{
+  font-size: 10px;
+    font-family: 'Circe-Light';
+    color: #8fa4ba;
+ }
+ .contactUs .contactForm{
+  
+ }
+ .contactUs .contactForm .title{
+  
+ }
+ .contactUs .contactForm form{
+  
+ }
+ .contactUs .contactForm form .parts{
+  
+ }
+ .contactUs .contactForm form .item{
+  
+ }
+ .contactUs .contactForm form .item textarea{
+  
+ }
+ .contactUs .contactForm form .item input{
+  
+ }
+ .contactUs .contactForm form .item span{
+  
+ }
+ .contactUs .contactForm form button{
+  
+ }
+
