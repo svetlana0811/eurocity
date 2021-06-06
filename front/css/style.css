@@ -454,30 +454,346 @@ color: #2a3340;
     color: #8fa4ba;
  }
  .contactUs .contactForm{
-  
+      margin-top: 50px
  }
  .contactUs .contactForm .title{
-  
+  font-size: 23px;
+    font-family: 'Circe-Bold';
+    text-align: center;
  }
  .contactUs .contactForm form{
-  
+ 
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+        width: 620px;
+    margin: 40px auto 0;
  }
  .contactUs .contactForm form .parts{
-  
+      width: 48%;
+      margin-right: 4%;
+ }
+ .contactUs .contactForm form .parts .item{
+      width: 100%;
  }
  .contactUs .contactForm form .item{
-  
+  width: 48%;
+    border: 2px solid rgb(196, 205, 215);
+    margin-bottom: 10px;
+    position: relative;
+    padding-top: 6px;
  }
+ .contactUs .contactForm form .parts .item:first-child {
+ 
+    margin-bottom: 35px;
+}
+
  .contactUs .contactForm form .item textarea{
-  
+   font-size: 12px;
+    width: 100%;
+    background: transparent;
+    border: none;
+    padding: 8px 20px;
+    color: #b9c4cf;
+    font-family: Circe-Light;
+    height: 105px;
+    resize: none;
  }
  .contactUs .contactForm form .item input{
-  
+      font-size: 12px;
+    width: 100%;
+    background: transparent;
+    border: none;
+    padding: 8px 20px;
+    color: #b9c4cf;
+    font-family: Circe-Light;
  }
  .contactUs .contactForm form .item span{
-  
+  position: absolute;
+    left: 10px;
+    top: -10px;
+    color: #b9c4cf;
+    font-family: Circe-ExtraLight;
+    font-size: 12px;
+    background: #f1f5f9;
+    padding: 0 5px;
  }
  .contactUs .contactForm form button{
-  
+        border: 2px solid rgb(42, 51, 64);
+    color: #2a3340;
+    font-size: 14px;
+    padding: 10px;
+    font-family: 'Circe-Regular';
+    background: transparent;
+    margin-top: 15px;
  }
+ 
 
+.filter {
+
+}
+.filter .rayonAndSearch{
+      margin-bottom: 20px;
+}
+.filter .rayonAndSearch ul{
+      display: flex;
+}
+.filter .rayonAndSearch ul li{
+ margin-right: 50px;
+    color: #a9b6c3;
+    font-size: 20px;
+}
+.filter .rayonAndSearch ul li.active{
+  color: #2a3340;
+}
+.filter .rayonAndSearch ul li.active:after {
+  display: block;
+    content: "";
+    width: 100%;
+    height: 3.5px;
+    margin-top: 0px;
+    opacity: 1;
+    clip-path: polygon(0 0,0 10px,1400px 100px,0 0); 
+    background: linear-gradient( 90deg,#2a3340,transparent);
+}
+.filter .rayonAndSearch form .searchParrent{
+  width: 400px;
+}
+.filter .rayonAndSearch form .searchParrent:after {
+    display: block;
+    content: "";
+    width: 100%;
+    height: 3.5px;
+    margin-top: 0px;
+    clip-path: polygon(0% 100%, 100% 20%, 100% 130%);
+    opacity: 1;
+    background: linear-gradient( 
+90deg
+,transparent ,rgb(185, 196, 207));
+}
+.filter .rayonAndSearch form .searchParrent input::placeholder {
+    color: #b9c4cf;
+    font-size: 20px;
+        font-family: 'Circe-Regular';
+  
+}
+.filter .rayonAndSearch form .searchParrent input{
+      text-align: right;
+    width: 100%;
+    background: transparent;
+    border: none;
+    padding: 5px 10px;
+      font-size: 20px;
+        font-family: 'Circe-Regular';
+    color: #b9c4cf;
+}
+.filter .selectedFilter{
+      width: 100%;
+}
+.filter .selectedFilter .left{
+  align-items: center;
+      width: 70%;
+}
+.owl-theme .owl-nav .disabled {
+    opacity: 1;
+    cursor: default;
+}
+.owl-theme .owl-nav .disabled span {
+      color: #b1bdc9;
+}
+  .owl-carousel .owl-nav button span {
+  font-size: 30px !important;
+      color: #2a3340;
+ }
+ .owl-carousel .owl-nav button.owl-prev  {
+    background: 0 0;
+    color: inherit;
+    border: none;
+    padding: 0!important;
+    font: inherit;
+    position: absolute;
+    top: 9px;
+    left: -20px;
+    height: max-content;
+    line-height: 0;
+        height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top:28%;
+    margin: 0;
+}
+ 
+.owl-theme .owl-nav [class*=owl-]:hover {
+    background: transparent !important;
+    color: initial;
+    text-decoration: none;
+}
+.owl-carousel .owl-nav button.owl-next {
+    background: 0 0;
+    color: inherit;
+
+    border: none;
+    padding: 0!important;
+    font: inherit;
+    position: absolute;
+    top: 9px;
+    right: -20px;
+    height: max-content;
+    line-height: 0;
+        height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top:28%;
+    margin: 0;
+}
+.filter .selectedFilter .left  span{
+  font-size: 20px;
+    font-family: 'Circe-Regular';
+}
+.filter .selectedFilter .left .regions{
+          margin-top: 5px;
+  width: 90%;
+}
+.filter .selectedFilter .left .regions .item{
+      color: #b1bdc9;
+    font-size: 20px;
+    text-align: center;
+   
+} 
+.filter .selectedFilter .right{
+  color: #b1bdc9;
+    font-size: 20px;
+    text-align: center;
+}
+.filter .selectedFilter .right .orderBy{
+  
+}
+.filter .selectedFilter .right .orderBy span{
+  
+}
+.filter .selectedFilter .right .orderBy button{
+  background: transparent;
+    border: none;
+    color: #b1bdc9;
+    margin-left: 10px;
+        font-size: 15px;
+        cursor: pointer;
+}
+.filter .selectedFilter .right .orderBy button.active{
+  color: #2a3340;
+}
+.filter {
+  background-color: rgb(226, 233, 240);
+  padding: 25px 40px 30px;
+}
+.filter {
+  
+} 
+ 
+.hostelitems {
+  display: flex;
+  flex-wrap: wrap;
+   margin-top: 50px;
+
+} 
+.hostelitems .item:not(:nth-child(3n)) {
+  margin-right:5% ;
+}
+.hostelitems .item{
+  width: 30%;
+  margin-bottom: 70px;
+} 
+.hostelitems .item .image{
+  height: 260px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+} 
+.hostelitems .item .info{
+  
+}
+.hostelitems .item .info .link {
+  margin-top: 20px;
+}
+.hostelitems .item .info a{
+  border: 2px solid rgb(30, 85, 0);
+    color: #1e5500;
+    font-size: 14px;
+    padding: 10px 24px;
+
+}
+.hostelitems .item .info .title{
+  color: #2a3340;
+  margin-top: 5px;
+    font-size: 23px;
+}
+.hostelitems .item .info .metro {
+  display: flex;
+    align-items: center;
+    margin: 0px 0 10px;
+}
+.hostelitems .item .info .metro img{
+  
+}
+.hostelitems .item .info .metro span{
+      color: #8fa4ba;
+    font-family: 'Circe-Light';
+    margin-left: 10px;
+}
+.hostelitems .item .info .infoItem{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.hostelitems .item .info .infoItem span{
+  
+}
+.hostelitems .item .info .infoItem img{
+  
+}
+.reviews {
+  background-color: rgb(236, 255, 226);
+      padding: 25px 40px;
+}
+.reviews .title{
+    font-size: 23px;
+    font-family: 'Circe-Bold';
+    text-align: center;
+    margin-bottom: 25px;
+}
+.reviews .testimonials {
+  
+}
+.reviews .testimonials .item .image{
+  width: 156px;
+}
+.reviews .testimonials .item .image img{
+  max-width: 100%;
+
+}
+.reviews .testimonials .item .text{
+  width: calc(100% - 300px);
+  margin-right: 100px;
+}
+.reviews .testimonials .item .text .desc{
+  margin-bottom: 10px;
+}
+.reviews .testimonials .item .text .nameAndSeeAll{
+  
+}
+.reviews .testimonials .item .text .nameAndSeeAll .name{
+  font-size: 20px;
+    color: #246600;
+    font-family: 'Circe-Light';
+}
+.reviews .testimonials .item .text .nameAndSeeAll .seeAll{
+   border: 1px solid rgb(30, 85, 0);
+    color: #1e5500;
+    font-size: 14px;
+    padding: 5px 27px;
+}
+ 
