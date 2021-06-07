@@ -453,15 +453,15 @@ color: #2a3340;
     font-family: 'Circe-Light';
     color: #8fa4ba;
  }
- .contactUs .contactForm{
+  .contactForm{
       margin-top: 50px
  }
- .contactUs .contactForm .title{
+  .contactForm .title{
   font-size: 23px;
     font-family: 'Circe-Bold';
     text-align: center;
  }
- .contactUs .contactForm form{
+  .contactForm form{
  
     display: flex;
     justify-content: center;
@@ -470,26 +470,26 @@ color: #2a3340;
         width: 620px;
     margin: 40px auto 0;
  }
- .contactUs .contactForm form .parts{
+  .contactForm form .parts{
       width: 48%;
       margin-right: 4%;
  }
- .contactUs .contactForm form .parts .item{
+  .contactForm form .parts .item{
       width: 100%;
  }
- .contactUs .contactForm form .item{
+  .contactForm form .item{
   width: 48%;
     border: 2px solid rgb(196, 205, 215);
     margin-bottom: 10px;
     position: relative;
     padding-top: 6px;
  }
- .contactUs .contactForm form .parts .item:first-child {
+ .contactForm form .parts .item:first-child {
  
     margin-bottom: 35px;
 }
 
- .contactUs .contactForm form .item textarea{
+  .contactForm form .item textarea{
    font-size: 12px;
     width: 100%;
     background: transparent;
@@ -500,7 +500,7 @@ color: #2a3340;
     height: 105px;
     resize: none;
  }
- .contactUs .contactForm form .item input{
+   .contactForm form .item input{
       font-size: 12px;
     width: 100%;
     background: transparent;
@@ -509,7 +509,7 @@ color: #2a3340;
     color: #b9c4cf;
     font-family: Circe-Light;
  }
- .contactUs .contactForm form .item span{
+   .contactForm form .item span{
   position: absolute;
     left: 10px;
     top: -10px;
@@ -519,7 +519,7 @@ color: #2a3340;
     background: #f1f5f9;
     padding: 0 5px;
  }
- .contactUs .contactForm form button{
+  .contactForm form button{
         border: 2px solid rgb(42, 51, 64);
     color: #2a3340;
     font-size: 14px;
