@@ -460,6 +460,7 @@ color: #2a3340;
   font-size: 23px;
     font-family: 'Circe-Bold';
     text-align: center;
+        text-transform: uppercase;
  }
   .contactForm form{
  
@@ -763,6 +764,7 @@ color: #2a3340;
     font-size: 23px;
     font-family: 'Circe-Bold';
     text-align: center;
+      text-transform: uppercase;
     margin-bottom: 25px;
 }
 .reviews .testimonials {
@@ -807,6 +809,7 @@ color: #2a3340;
     line-height: 0.55;
     text-align: center;
     margin-top: 90px;
+      text-transform: uppercase;
 }
 .howweWork .subTitle{
       font-size: 13px;
@@ -867,6 +870,7 @@ background-color: rgb(226, 233, 240);
     color: rgb(42, 51, 64);
     line-height: 0.55;
     text-align: center; 
+      text-transform: uppercase;
 }
 .whoWeAre .items{
   display: flex;
@@ -904,3 +908,129 @@ background-color: rgb(226, 233, 240);
     text-align: center;
     margin-top: 10px;
 } 
+.accordion__item {
+    margin-bottom: 20px;
+    border: 2px solid #ffffff;
+    box-shadow: 0px 0px 15px 0px rgb(0 0 0 / 6%);
+    background-color: rgb(226, 233, 240);
+}
+ .accordion__body {
+   display: none;
+       padding: 30px 50px;
+    font-size: 16px;
+}
+ .accordion__body p {
+   margin-bottom: 0;
+}
+ .accordion__title {
+       font-size: 20px;
+    cursor: pointer;
+    margin-bottom: 0;
+    padding: 15px;
+    position: relative;
+    font-family: 'Circe-Bold';
+}
+.accordion__title.active {
+ background-color: rgb(30, 85, 0);
+     color: white;
+  }
+ .accordion__title:after {
+        content: "+";
+    width: 20px;
+    height: 17px;
+    position: absolute;
+        right: 15px;
+    top: 15px;
+    border: 2px solid;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 2px;
+}
+  
+
+ .accordion__title.active:after {
+        content: "-";
+    width: 20px;
+    height: 20px;
+    position: absolute;
+        right: 15px;
+    top: 15px;
+    border: 2px solid;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 27px;
+    padding-top: 0;
+ 
+}
+ .faq .title {
+      font-size: 23px;
+    font-family: 'Circe-Bold';
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+ }
+ .faq {
+      margin-top: 120px;
+      margin-bottom: 60px;
+ } 
+ .singlePage .filter {
+      padding: 25px 40px 25px;
+ }
+ .singlePage .filter .rayonAndSearch {
+    margin-bottom: 0;
+    justify-content: center;
+}
+ .singlePage {
+  
+ }
+ .singlePage {
+  
+ }
+ .singlePage .hoToFind{
+   border: 2px solid rgb(255, 255, 255);
+   margin-bottom: 100px;
+   margin-top: 25px;
+
+ }
+ .singlePage .hoToFind .transport{
+        display: flex;
+    padding: 30px;
+    justify-content: space-between;
+ }
+ .singlePage .hoToFind .transport .item{
+  min-width: 16%;
+ }
+ .singlePage .hoToFind .transport .item .title{
+      display: flex;
+    align-items: center;
+ }
+ .singlePage .hoToFind .transport .item .title img{
+  margin-right: 10px;
+ }
+ .singlePage .hoToFind .transport .item .title p{
+      font-size: 20px;
+ }
+ .singlePage .hoToFind .transport .item .items{
+  list-style: disc;
+    margin-left: 25px;
+    font-size: 20px;
+    font-family: 'Circe-Light';
+    margin-top: 10px;
+ }
+ .singlePage .hoToFind .transport .item .items li{
+  
+ }
+ .singlePage .hoToFind .maps{
+     border: 1px solid rgb(255, 255, 255);
+    margin: 5px;
+ }
+ .singlePage .hoToFind .maps iframe{
+  width: 100%;
+  height: 510px;
+ }
