@@ -989,7 +989,18 @@ background-color: rgb(226, 233, 240);
  .singlePage {
   
  }
- .singlePage {
+ .singlePage .whatIsNear{
+  border: 2px solid rgb(255, 255, 255);
+   margin-bottom: 100px;
+   margin-top: 25px;
+ }
+ .singlePage .whatIsNear>.title{
+      display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+ }
+ .singlePage .whatIsNear>.title p{
   
  }
  .singlePage .hoToFind{
@@ -998,32 +1009,33 @@ background-color: rgb(226, 233, 240);
    margin-top: 25px;
 
  }
- .singlePage .hoToFind .transport{
+ .singlePage  .transport{
         display: flex;
     padding: 30px;
     justify-content: space-between;
  }
- .singlePage .hoToFind .transport .item{
+ .singlePage  .transport .item{
   min-width: 16%;
+  max-width: 50%;
  }
- .singlePage .hoToFind .transport .item .title{
+ .singlePage  .transport .item .title{
       display: flex;
     align-items: center;
  }
- .singlePage .hoToFind .transport .item .title img{
+ .singlePage  .transport .item .title img{
   margin-right: 10px;
  }
- .singlePage .hoToFind .transport .item .title p{
+ .singlePage  .transport .item .title p{
       font-size: 20px;
  }
- .singlePage .hoToFind .transport .item .items{
+ .singlePage  .transport .item .items{
   list-style: disc;
     margin-left: 25px;
     font-size: 20px;
     font-family: 'Circe-Light';
     margin-top: 10px;
  }
- .singlePage .hoToFind .transport .item .items li{
+ .singlePage  .transport .item .items li{
   
  }
  .singlePage .hoToFind .maps{
